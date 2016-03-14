@@ -9,12 +9,12 @@ import javafx.stage.Stage;
 /**
  * Created by fpiplip on 14.03.2016.
  */
-public class gui_main extends Application {
-    public gui_main() {
+public class gui extends Application {
+    public gui() {
     }
 
     public void start(Stage primaryStage) throws Exception {
-        Button sendButton = new Button("seeeeeend");
+        Button sendButton = new Button("fisch");
         BorderPane root = new BorderPane();
         root.setCenter(sendButton);
         primaryStage.setTitle("Hello World");
